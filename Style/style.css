@@ -14,9 +14,6 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    /* margin-left: 224px;
-    margin-right: 240px;
-    margin-top: 36px; */
 }
 
 .nav-title {
@@ -45,10 +42,7 @@ nav li {
 .header-description {
     width: 910px;
     height: 315px;
-    /* padding: 529px; */
     margin-left: 529px;
-    /* text-align: center; */
-    /* border: 1px solid green; */
     text-align: center;
 }
 
@@ -56,14 +50,12 @@ nav li {
     font-weight: 700;
     font-size: 64px;
     text-align: center;
-    /* margin-top: 205px; */
 }
 
 .btn-primary {
     color: #FFFFFF;
     align-items: center;
     margin-left: 915px;
-    /* border: 1px solid red; */
     padding: 15px;
     background-color: #FF900E;
     border-radius: 8px;
@@ -136,7 +128,6 @@ nav li {
 .about {
     width: 1440px;
     height: 1059px;
-    /* background-color: #FF900E; */
     margin-top: 130px;
     margin-left: 240px;
     display: grid;
@@ -210,7 +201,6 @@ nav li {
 .facts-projects {
     margin-top: 100px;
     display: flex;
-    /* margin-left: 124px; */
 }
 
 .box1 {
@@ -271,6 +261,63 @@ nav li {
     margin-left: 175px;
 }
 
+/* Sponcer icon over effect */
+
+
+/* 
+extra information
+*/
+
+.extra {
+    margin-top: 100px;
+    text-align: center;
+    background: thistle;
+    width: 900px;
+    height: 300px;
+    margin-left: 500px;
+    padding-top: 50px;
+    border-radius: 10px;
+    border: none;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+}
+
+.extra-title {
+    font-weight: 700;
+
+    font-size: 35px;
+    color: #45a107;
+
+}
+
+.extra-details {
+    width: 450px;
+    margin-left: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input {
+    border: none;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.btn-search {
+    position: absolute;
+    border: none;
+    padding: 16px;
+    width: 100px;
+    background-color: blue;
+    margin-left: 20px;
+    border-radius: 10px;
+    color: #FF900E;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
 /* footer styling */
 footer {
     width: 1440px;
@@ -292,4 +339,11 @@ footer {
     padding-top: 40px;
     padding-bottom: 40px;
     margin-left: 410px;
+}
+
+
+/* Responsive for mobile*/
+
+@media only screen and (max-width:678px) {
+    
 }
